@@ -76,21 +76,19 @@ input:focus{
     height: 120px;
 }
 
-.content {
-    position:static;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 0px;
-    
+aside{
+    float: right;
+    margin-top: -250px;
+    position: sticky;
+    top: 250px;
 }
 
 .social{
     height: 160px;
-    margin-left: 1460px;
     position: sticky;
-    top: 100px;
-    margin-top: 250px;
+    top: 200px;
+    margin-left: 1460px;
+    margin-top: -400px;     
 }
 
 
@@ -98,7 +96,7 @@ input:focus{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+    margin-top: 180px;
 }   
 
 .poster-img{
